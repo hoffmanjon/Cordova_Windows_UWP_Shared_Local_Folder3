@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <div style="font-size: 2em;color: red;">{{message}}</div>
+
+    <button style="height: 75px;" (click)="pickFile()" color="light">
+    Pick file
+  </button>
+
+  <button style="height: 75px;" (click)="saveFile()" color="light">
+    Save File
+  </button>
+
+  <button style="height: 75px;" (click)="saveSharedFile()" color="light">
+    Save Shared File
+  </button>  
+</ion-content>
