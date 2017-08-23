@@ -111,7 +111,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"E:\aaa\ionic\FileShareTest\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <div style="font-size: 2em;color: red;">{{message}}</div>\n\n    <button style="height: 75px;" (click)="pickFile()" color="light">\n    Pick file\n  </button>\n\n  <button style="height: 75px;" (click)="saveFile()" color="light">\n    Save File\n  </button>\n\n  <button style="height: 75px;" (click)="saveSharedFile()" color="light">\n    Save Shared File\n  </button>  \n</ion-content>\n'/*ion-inline-end:"E:\aaa\ionic\FileShareTest\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"E:\aaa\ionic\test\Cordova_Windows_UWP_Shared_Local_Folder3\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Ionic Blank\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  The world is your oyster.\n\n  <div style="font-size: 2em;color: red;">{{message}}</div>\n\n\n\n    <button style="height: 75px;" (click)="pickFile()" color="light">\n\n    Pick file\n\n  </button>\n\n\n\n  <button style="height: 75px;" (click)="saveFile()" color="light">\n\n    Save File\n\n  </button>\n\n\n\n  <button style="height: 75px;" (click)="saveSharedFile()" color="light">\n\n    Save Shared File\n\n  </button>  \n\n</ion-content>\n\n'/*ion-inline-end:"E:\aaa\ionic\test\Cordova_Windows_UWP_Shared_Local_Folder3\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */]])
 ], HomePage);
@@ -228,7 +228,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"E:\aaa\ionic\FileShareTest\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"E:\aaa\ionic\FileShareTest\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"E:\aaa\ionic\test\Cordova_Windows_UWP_Shared_Local_Folder3\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"E:\aaa\ionic\test\Cordova_Windows_UWP_Shared_Local_Folder3\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
