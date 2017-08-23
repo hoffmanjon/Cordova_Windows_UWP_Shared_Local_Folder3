@@ -12,8 +12,8 @@ We also tried installing the application for multiple users on the same system. 
 You will need to set a group policy to get the shared local folders working. In the in the "Using Shared Local" section of this page: https://blogs.windows.com/buildingapps/2016/05/24/sharing-your-local-app-data it describes how to change the policy and which one to change.
 
 # How project was created
-ionic start FileSharePOC2 blank
-cd FileSharePOC2
+ionic start FileSharePOC3 blank
+cd FileSharePOC3
 cordova platform add windows
 
 edited config.xml to add `<preference name="windows-target-version" value="10.0" />`
@@ -22,10 +22,10 @@ cordova plugin add https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Loca
 
 `added code`
 
-# Building Project
-First add plugin using `cordova plugin add https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git`
+Change the .gitignore file to the /www directory was included.
 
-run `cordova build windows`
+# Building Project
+In the directory that contains the clone to this project run `cordova prepare`.  Then run `npm install`.  If there are no errors you should be ready to build the project.
 
 # Reproduce issue
 build several versions of the project changing the version number, in line 2 of the config.xml file, for each build `<widget id="io.ionic.starter" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">`
