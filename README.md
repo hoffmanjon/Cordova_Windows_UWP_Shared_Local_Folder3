@@ -25,7 +25,9 @@ cordova plugin add https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Loca
 Change the .gitignore file to the /www directory was included.
 
 # Building Project
-In the directory that contains the clone to this project run `cordova prepare`.  Then run `npm install`.  If there are no errors you should be ready to build the project.
+In the directory that contains the clone to this project run `cordova prepare`.  Then run `npm install`.  If there are no errors you should be ready to build the project.  
+
+If you experience issues with retrieving the `Cordova_Windows_UWP_Shared_Local_Folder_Plugin` try manually installing it with the `--nofetch` option.
 
 # Reproduce issue
 build several versions of the project changing the version number, in line 2 of the config.xml file, for each build `<widget id="io.ionic.starter" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">`
